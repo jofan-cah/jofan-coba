@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- Icon -->
+    <link rel="stylesheet" href="icon/css/fontawesome.css" />
+   <!-- Favicon-->
+   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+   <link rel="shortcut icon" href="img/favicon-32x32.png" class="img-circle">
+   <!-- Font Awesome icons (free version)-->
+   <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  
+    <!--CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | Bey.pict</title>
+</head>
+
+<id id="home">
+    <header id="header" style="font-family: 'Oswald'">
+        <!-- Navbar -->
+        <!-- navbar bg = warna -->
+        <!-- Shadow sm = bayangan navbar-->
+        <!-- fixed-top = agar navbar stay diatas dan ikut jika di scroll-->
+
+        <nav class="navbar cek navbar-expand-lg navbar-light shadow-sm fixed-top navbar-arrow pull-left" style="background-color: #ffffff">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Futsal Land</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ms-auto digunakan untuk menggeser link link-->
+                    <ul class="navbar-nav ms-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">BOOKING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price list">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">HELP</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="pull-right">
+
+                    <ul class=" navbar-nav">
+                        <li class="nav-item">
+                            <a class="btn btn-outline-danger btn-light btn-sm btn-flat  "> SIGN UP </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+      <!-- TUTUP HEADER -->
+    <br>
+    <br><br>
+    <h1 class="masthead-heading text-uppercase mb-0 text-center">Help</h1>
+    <div class="text-center">
+
+        <div class="divider-custom divider-light">
+        
+        <div class="divider-custom-icon"><i class="fas fa-grip-lines "></i><i class="fas fa-star"></i><i class="fas fa-grip-lines "></i></div>
+        
+    </div>
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section " id="contact-us">
+        
+        <div class="container-fluid  mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6  col-xs-12">
+                    <div id="map">
+                        <!-- <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.7972463991227!2d110.59969411415335!3d-7.704894278451215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a4409021e57fd%3A0xdd6b509537ad4af9!2sKlaten%20Town%20Square!5e0!3m2!1sen!2sid!4v1624523374532!5m2!1sen!2sid" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 cek2 col-md-6 col-xs-12 ">   
+                    <h1 class="align-content-lg-start">Isi Data Anda</h1>
+                          <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Nama Lengkap</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="name" />
+                            </div>
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="email" />
+                            </div>
+              
+                            <div class="mb-3">
+                              <label for="Pesan" class="form-label">Pesan</label>
+                              <textarea class="form-control" id="Pesan" rows="6"></textarea>
+                            </div>
+              
+                            <!--Jika ada fitur Login-->
+              
+                            <!--<div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" />
+                            </div>-->
+              
+                            <!--Akhir Jika ada fitur Login-->
+              
+                            <!--Jika ada Check Box-->
+              
+                            <!--<div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>-->
+              
+                            <!--Akhir Check Box-->
+              
+                            <!--Tombol Kirim Pesan-->
+                            <button type="submit" class="btn btn-primary">Kirim</button>
+                            <!--Akhir Tombol Kirim Pesan-->
+                          </form>
+                       
+                </div>
+            </div>
+       
+    </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+
+
+
+
+
+    <!-- footer-copyright start -->
+    <footer class="footer-copyright">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="single-footer-item">
+                            <!-- Footer Logo -->
+                            <section class="footer-logo">
+                                <div class="container">
+                                    <p class="text-center">Support By</p>
+                                    <img src="img/Logo Footer.png" class="d-block w-100" alt="" />
+                                    <a href="index.html"> </a>
+                                </div>
+                            </section>
+                        </div>
+                        <!--/.single-footer-item-->
+                    </div>
+                    <!--/.col-->
+
+                    <div class="col-sm-3">
+                        <div class="single-footer-item">
+                            <h2>Tentang Futsal Land</h2>
+                            <div class="single-footer-txt">
+                                <p><a href="#">home</a></p>
+                                <p><a href="#">about</a></p>
+                                <p><a href="#">spacial packages</a></p>
+                            </div>
+                            <!--/.single-footer-txt-->
+                        </div>
+                        <!--/.single-footer-item-->
+                    </div>
+                    <!--/.col-->
+
+                    <div class="col-sm-3">
+                        <div class="single-footer-item">
+                            <h2>popular destination</h2>
+                            <div class="single-footer-txt"></div>
+                            <!--/.single-footer-txt-->
+                        </div>
+                        <!--/.single-footer-item-->
+                    </div>
+                    <!--/.col-->
+
+                    <div class="col-sm-3">
+                        <div class="single-footer-item">
+                            <h2 class="text-left">contacts</h2>
+                            <div class="single-footer-txt text-left">
+                                <p class="foot-email"><a href="#">info@tnest.com</a></p>
+                                <p>ig : <a href=""> butamap.yk </a></p>
+                            </div>
+                            <!--/.single-footer-txt-->
+                        </div>
+                        <!--/.single-footer-item-->
+                    </div>
+                    <!--/.col-->
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.footer-content-->
+            <hr />
+            <div class="container d-flex justify-content-center">
+                <div class="row mb-1">
+                    <div class="col-sm-4">
+                        <div class="foot-icons">
+                            <ul class="footer-social-links inline list-unstyled">
+                                <li>
+                                    <a href="#" target="_blank" class="foot-icon-bg-1"><img src="img_icon/whatsapp.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="foot-icons">
+                            <ul class="footer-social-links inline list-unstyled">
+                                <li>
+                                    <a href="#" target="_blank" class="foot-icon-bg-1"> <img src="img_icon/facebook.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="foot-icons">
+                            <ul class="footer-social-links inline list-unstyled">
+                                <li>
+                                    <a href="#" target="_blank" class="foot-icon-bg-1"><img src="img_icon/instagram.png" alt="" /> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p>&copy; 2017 <a href="">ThemeSINE</a>. All Right Reserved</p>
+            </div>
+
+            <!--/.foot-icons-->
+            <div id="scroll-Top">
+                <i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+
+            <!--/.scroll-Top-->
+        </div>
+        <!-- /.container-->
+    </footer>
+    <!-- /.footer-copyright-->
+    <!--Akhir Footer-->
+    </id>   
+</body>
+<!--Bundle Script Java Script, Jquery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</html>
